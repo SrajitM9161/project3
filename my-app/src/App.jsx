@@ -1,6 +1,5 @@
 import React from 'react'
 import './index.css'
-import Frontend from './RoadMaps/Frontend'
 import NavBar from './Components/NavBar'
 import Roadmap from './Components/Roadmap'
 import Videos from './Components/Videos'
@@ -9,6 +8,7 @@ import {BrowserRouter, Routes,Route} from 'react-router-dom'
 const App = () => {
 
   return (
+   
     <>
 <BrowserRouter>
 <NavBar/>
