@@ -1,4 +1,42 @@
 img{
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
 }
+
+.NavBar{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+   justify-content: space-between;
+   background-color: #0f172a ;
+   padding: 20px 80px;
+   box-shadow: 0 5px 15px (rgba(0,0,0,0.06 ));
+   border-radius: 20px;
+   
+}
+.navdata{
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+
+}
+.navdata li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+.navdata li a{
+
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 600;
+    transition: 0.3e ease-in-out;
+}
+
+.navdata li a:hover {
+    color: #17cf97;
+}
+
+

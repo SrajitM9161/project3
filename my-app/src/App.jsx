@@ -1,22 +1,25 @@
 import React from 'react'
 import './index.css'
 import Frontend from './RoadMaps/Frontend'
+import NavBar from './Components/NavBar'
+import Roadmap from './Components/Roadmap'
+import Videos from './Components/Videos'
+import About from './Components/About'
+import {BrowserRouter, Routes,Route} from 'react-router-dom'
 const App = () => {
+
   return (
     <>
-     <Frontend
-  title="Frontend" />
-     <Frontend
-  title="Backend" />
-     <Frontend
-  title="UI/UX" />
-     <Frontend
-  title="Blockchain" />
-     <Frontend
-  title="IOS" />
-     <Frontend
-  title=" Android" />
-   
+<BrowserRouter>
+<NavBar/>
+<Routes>
+   <Route  path="/home" element={<Roadmap></Roadmap>}/>
+   <Route  path="/roadmaps" element={<Roadmap></Roadmap>}/>
+   <Route  path="/video" element={<Videos/>}/>
+   <Route  path="/about" element={<About/>}/>
+</Routes>
+</BrowserRouter>
+
     </>
     
   )
