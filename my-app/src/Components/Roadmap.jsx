@@ -14,19 +14,19 @@ const Roadmap = () => {
   return (
     <div>
       <Frontend title="Frontend" />
-      <button onClick={() => { handleDownload(file) }}>Download</button>
+      <button onClick={() => { handleDownload(file) }}>Show</button>
 
       <Frontend title="Backend" />
-      <button onClick={() => { handleDownload(fil2) }}>Download</button>
+      <button onClick={() => { handleDownload(fil2) }}>Show</button>
 
       <Frontend title="UI/UX" />
-      <button onClick={() => { handleDownload(fil3) }}>Download</button>
+      <button onClick={() => { handleDownload(fil3) }}>Show</button>
 
       <Frontend title="Blockchain" />
-      <button onClick={() => { handleDownload(fil4) }}>Download</button>
+      <button onClick={() => { handleDownload(fil4) }}>Show</button>
 
       <Frontend title="Android" />
-      <button onClick={() => { handleDownload(file) }}>Download</button>
+      <button onClick={() => { handleDownload(file) }}>Show</button>
     </div>
   );
 };
