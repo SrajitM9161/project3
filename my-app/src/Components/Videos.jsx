@@ -6,43 +6,43 @@ const Videos = () => {
 
   const handleVideoClick = (videoTitle) => {
     setSelectedVideo(videoTitle);
-    // You can remove the window.open() function if you want to open the video in the same window
-    window.open('https://www.youtube.com/embed/fxtN1lY0YL8', '_blank');
+    
+    window.open('', '_blank');
   };
 
   const renderVideo = () => {
     if (selectedVideo === 'Frontend') {
       return (
         <div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/fxtN1lY0YL8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        
         </div>
       );
     } else if (selectedVideo === 'Backend') {
       return (
         <div>
-          {/* Insert the URL of the backend video */}
+          {}
         </div>
       );
     } else if (selectedVideo === 'UI/UX') {
       return (
         <div>
-          {/* Insert the URL of the UI/UX video */}
+          {}
         </div>
       );
     } else if (selectedVideo === 'Blockchain') {
       return (
         <div>
-          {/* Insert the URL of the blockchain video */}
+          {}
         </div>
       );
     } else if (selectedVideo === 'Android') {
       return (
         <div>
-          {/* Insert the URL of the Android video */}
+          {}
         </div>
       );
     }
-    return null; // Return null if no video is selected
+    return null; 
   };
 
   return (

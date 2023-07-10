@@ -1,0 +1,25 @@
+.About {
+    background-color:black;
+    padding: 20px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 80px;
+    border: 5px solid #ffffff; /* Border properties */
+    box-shadow: 0 0 10px rgba(221, 219, 219, 0.5); /* Box shadow properties */
+  }
+  
+  .About p {
+    font-size: 16px;
+    line-height:1.5;
+
+  }
+  
+  .About a {
+    color: #1e7de3;
+    text-decoration: none;
+  }
+  
+  .About a:hover {
+    text-decoration: underline;
+  }
+  
