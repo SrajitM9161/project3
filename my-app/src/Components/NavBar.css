@@ -8,7 +8,10 @@ img{
     text-decoration: none;
     text-align: center;
    justify-content: space-between;
-   background-color: #0f172a ;
+   background: #232526;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
    padding: 20px 40px;
    box-shadow: 0 5px 15px (rgba(0,0,0,0.06 ));
    border-radius: 20px;
@@ -39,5 +42,34 @@ img{
 .navdata li a:hover {
     color: #17cf97;
 }
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ 
+  .btn:hover {
+    background-color: #2980b9; 
+  }
+  
+  
+  .btn:active {
+    background-color: #1c6da8; 
+  }
+  
+
+
+
 
 

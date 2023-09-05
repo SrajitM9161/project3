@@ -26,11 +26,11 @@ const NavBar = () => {
           </li>
           <li>
             {isAuthenticated ? (
-              <button onClick={() => logout({ returnTo: window.location.origin })}>
+              <button className='btn' onClick={() => logout({ returnTo: window.location.origin })}>
                 Log Out
               </button>
             ) : (
-              <button onClick={() => loginWithRedirect()}>Log In</button>
+              <button className='btn' onClick={() => loginWithRedirect()}>Log In</button>
             )}
           </li>
           <li>

@@ -1,6 +1,22 @@
 .roadmapg{
-    background-color: black;
+
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
   display: flex;
-  height: 800px;
+  height: 600px;
   width: 400px;
+  border-radius: 20px 20px 20px 20px;
+  margin-top: 30px;
+  padding: 10px 10px ;
+}
+
+.roadmapg a{
+  text-decoration: none;
+  background-color: azure;
+}
+.v1{
+  margin-left: 180px;
 }

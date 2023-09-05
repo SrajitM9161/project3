@@ -23,9 +23,21 @@ const Guid = () => {
             <a href={item.link5}>
               <Frontend title={item.title5} className='guiddata' />
             </a>
+            <a href={item.link6}>
+              <Frontend title={item.title6} className='guiddata' />
+            </a>
+            <a href={item.link7}>
+              <Frontend title={item.title7} className='guiddata' />
+            </a>
             
           </div>
         ))}
+        <div className='v1'>
+        <video width="900" height="550" controls>
+        <source src="https://youtu.be/91Vdve_SlTE" />
+        
+      </video>
+        </div>
       </div>
   
   );
