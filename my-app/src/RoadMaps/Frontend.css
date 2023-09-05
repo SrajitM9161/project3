@@ -1,17 +1,15 @@
-h2{
+h1{
 
-color: #ffffff;
-}
-.data{
-    background:  linear-gradient(to right, #536976, #292e49); 
-    border-radius: 10px 10px 10px 10px;
-    height: 70px;
-    width: 450px;
-    cursor: pointer;
-    margin: 0px 0px 40px 500px ;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    
-}
-p{
-    color:#ffffff;
-}
+    color: #f7f7f7;
+    }
+    .data{
+        background:  linear-gradient(to right, #232222, #000); 
+        border-radius: 10px 10px 10px 10px;
+        height: 60px;
+        width: 355px;
+        cursor: pointer;
+        margin: 0px 0px 10px 10px ;
+        margin-left: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        
+    }

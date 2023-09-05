@@ -1,15 +1,37 @@
-button{
-    margin-left:45% ;
-   width:80px;
-  background-color: black;
-  color: white;
-  border-radius: 10px 10px;
-  cursor: pointer;
-}
-button:hover {
-    background: #3A1C71;
-    background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
-    background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
-}
-
+#textrd{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
   
+  }
+  #h1_lay{
+    background-repeat: none;
+    
+  }
+  #p_lay{
+    color: rgb(225, 223, 223);
+    
+  }
+  #roadmap .andr {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+  
+    
+  }
+  
+  
+  #textrd h1 {
+    text-align: center;
+    padding-top: 150px;
+    margin-top: 0%;
+    
+    
+  }
+  .roadmap a{
+    text-decoration: none;
+  
+  }

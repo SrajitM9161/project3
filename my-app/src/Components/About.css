@@ -1,11 +1,11 @@
 .About {
-    background-color:black;
+    background-color:rgb(228, 220, 220);
     padding: 20px;
     text-align: center;
     padding-top: 50px;
     margin-top: 80px;
     border: 5px solid #ffffff; /* Border properties */
-    box-shadow: 0 0 10px rgba(221, 219, 219, 0.5); /* Box shadow properties */
+    box-shadow: 0 0 10px rgba(134, 132, 132, 0.5); /* Box shadow properties */
   }
   
   .About p {
